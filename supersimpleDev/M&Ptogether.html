@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin and padding together</title>
+
+    <style>
+        .one-button {
+            background-color: green;
+            color: white;
+            border: none;
+            font-size: 16px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            cursor: pointer;
+
+            padding-left: 10px;
+            padding-right: 10px;
+
+            margin-right: 10px;
+            margin-left: 10px;
+
+            transition: padding 0.15s, margin 0.15s;
+        }
+
+        .one-button:hover {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <button class="one-button">one</button>
+
+    <button class="one-button">two</button>
+
+    <button class="one-button">Three</button>
+</body>
+</html>
